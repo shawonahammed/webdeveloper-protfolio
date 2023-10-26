@@ -15,6 +15,7 @@ nav{
     display: flex;  
     justify-content: space-between;   
     align-items: center;
+    padding: 50px 225px;
 }
 .nav-title{
     color: #181818;
@@ -41,4 +42,31 @@ nav a{
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px ;
+}
+/* header releted styles */
+.header{
+    background-color: #FFF8F3; ;
+}
+.banner{
+    padding: 30px 30px 30px 200px;
+    display: flex;
+}
+.banner-title{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    padding: 180px 1000px 5px 0px;
+}
+.dawonload-icon{
+    padding-right: 10px;
+    margin-left: 0;
+    
+}
+.icon{
+    display: flex;
+    padding-top: 20px;
+
+}
+.dawonload-btn{
+    margin-right: 50px;
 }
