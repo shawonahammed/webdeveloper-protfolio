@@ -10,6 +10,19 @@ body{
 .text-primary{
     color: #FD6E0A;
 }
+.section-title{
+    color:  #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 /* nav releted styles*/
 nav{
     display: flex;  
@@ -69,4 +82,13 @@ nav a{
 }
 .dawonload-btn{
     margin-right: 50px;
+}
+/* main section styles */
+
+/* about section styles */
+.about{
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px;
+    margin: 130px 230px;
 }
