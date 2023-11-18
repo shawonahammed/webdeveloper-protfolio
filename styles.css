@@ -22,6 +22,10 @@ body{
     font-size: 18px;
     font-weight: 400;
 }
+main{
+    max-width: 1150px;
+    margin: 0 auto;
+}
 
 /* nav releted styles*/
 nav{
@@ -90,5 +94,49 @@ nav a{
     border-radius: 10px;
     background: #FFF8F3;
     padding: 130px;
-    margin: 130px 230px;
+    margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+}
+.info-description{
+    color: #474747;
+    font-size: 20px;
+}
+/* what i do section styles */
+#section-info{
+    margin: 30px 90px; 
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+img{
+    padding: 30px 0 0 30px;
+}
+.skill-title{
+    padding-left: 30px;
+    color: #181818;
+    font-size: 20px;
+    line-height: normal;
+}
+.skill-description{
+    padding: 0 30px 30px 30px;
+    color: #757575;
+    font-size: 16px;
+    width: 201px;
 }
