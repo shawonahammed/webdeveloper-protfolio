@@ -119,6 +119,7 @@ nav a{
 .skills-container{
     display: flex;
     gap: 24px;
+    margin-bottom: 100px;
 }
 .skill{
     border-radius: 5px;
@@ -139,4 +140,35 @@ img{
     color: #757575;
     font-size: 16px;
     width: 201px;
+}
+/* Resume section styles */
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    gap: 50px;
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+}
+.resume-item-institute{
+    color:#757575;
+    font-size: 20px;
+}
+.resume-item-description{
+    color:#757575;
+    font-size: 16px;
+}
+.resume-btn{
+    padding-right: 10px;
+}
+.dawonload-cv{
+    text-align: center;
+    margin-top: 75px;
 }
