@@ -62,26 +62,39 @@ nav a{
 }
 /* header releted styles */
 .header{
-    background-color: #FFF8F3; ;
+    background-repeat: no-repeat;
+    background-color: #FFF8F3;
+    background-position: left,bottom right;
+    background-image: url('/images/developer.png'),url('/images/header_bg.png')
+    
+}
+.header .banner img{
+    
 }
 .banner{
-    padding: 30px 30px 30px 200px;
+    padding: 30px 30px 0px 200px;
     display: flex;
 }
 .banner-title{
-    font-size: 45px;
+    font-size: 50px;
     font-weight: 600;
     color: #474747;
-    padding: 180px 1000px 5px 0px;
+    padding: 180px 900px 5px 0px;
 }
 .dawonload-icon{
     padding-right: 10px;
     margin-left: 0;
     
 }
+.banner img{
+     
+    
+
+}
 .icon{
     display: flex;
     padding-top: 20px;
+    padding-bottom: 80px;
 
 }
 .dawonload-btn{
